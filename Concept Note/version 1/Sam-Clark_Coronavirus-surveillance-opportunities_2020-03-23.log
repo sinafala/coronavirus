@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.4.10)  23 MAR 2020 13:07
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.4.10)  23 MAR 2020 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Sam-Clark_Coronavirus-surveillance-opportunities_2020-03-21.tex
-(./Sam-Clark_Coronavirus-surveillance-opportunities_2020-03-21.tex
+**Sam-Clark_Coronavirus-surveillance-opportunities_2020-03-23.tex
+(./Sam-Clark_Coronavirus-surveillance-opportunities_2020-03-23.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -470,8 +470,8 @@ tuationSpace=WordSpace,Scale=MatchLowercase].
 
 LaTeX Info: Redefining \ttfamily on input line 29.
 
-(./Sam-Clark_Coronavirus-surveillance-opportunities_2020-03-21.aux)
-\openout1 = `Sam-Clark_Coronavirus-surveillance-opportunities_2020-03-21.aux'.
+(./Sam-Clark_Coronavirus-surveillance-opportunities_2020-03-23.aux)
+\openout1 = `Sam-Clark_Coronavirus-surveillance-opportunities_2020-03-23.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
@@ -606,16 +606,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ] [2]
-[3] [4] [5] [6]
-(./Sam-Clark_Coronavirus-surveillance-opportunities_2020-03-21.aux) ) 
+[3]
+File: figures/vizpic.pdf Graphic file (type pdf)
+<use figures/vizpic.pdf>
+
+
+LaTeX Warning: Reference `fig:extrapfig' on page 4 undefined on input line 90.
+
+[4] [5] [6] [7] [8]
+(./Sam-Clark_Coronavirus-surveillance-opportunities_2020-03-23.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17111 strings out of 492922
- 346836 string characters out of 6133407
- 416401 words of memory out of 5000000
- 21036 multiletter control sequences out of 15000+600000
+ 17119 strings out of 492922
+ 346967 string characters out of 6133407
+ 414401 words of memory out of 5000000
+ 21041 multiletter control sequences out of 15000+600000
  535926 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  47i,11n,116p,1518b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Sam-Clark_Coronavirus-surveillance-opportunities_2020-03-21.p
-df (6 pages).
+Output written on Sam-Clark_Coronavirus-surveillance-opportunities_2020-03-23.p
+df (8 pages).
