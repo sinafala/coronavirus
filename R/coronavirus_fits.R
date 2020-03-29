@@ -33,6 +33,10 @@ tp.us.daily <- read_csv(url(urlfile))
 # View(tp.us.daily)
 str(tp.us.daily) 
 rm('urlfile')
+# save the cases and deaths data
+tp.us.daily.basic <- tp.us.daily[,c('date','death','positive')]
+colnames(tp.us.daily.basic) <- c('date','deaths','cases')
+write_csv(tp.us.daily.basic, sprintf("./Data/tp_covid19_data_%s.csv", Sys.Date()))
 
 # prepare CV tracking project data
 # deaths
@@ -41,6 +45,7 @@ tp.us.death.daily <- tp.us.death.daily[!is.na(tp.us.death.daily$death),] # remov
 tp.us.death.daily <- cbind(tp.us.death.daily[,1],(tp.us.death.daily$date-min(tp.us.death.daily$date)),tp.us.death.daily[,2]) # create a field for days since first deaths
 colnames(tp.us.death.daily) <- c('date','days','deaths')
 head(tp.us.death.daily) # have a look
+
 # cases
 tp.us.case.daily <- tp.us.daily[,c('date','positive')] # grab only date and cases
 tp.us.case.daily <- tp.us.case.daily[!is.na(tp.us.case.daily$positive),] # remove rows with cases=NA
